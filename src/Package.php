@@ -9,10 +9,9 @@ declare(strict_types=1);
 
 namespace Ixocreate\Log;
 
+use Ixocreate\Application\ConfiguratorRegistryInterface;
 use Ixocreate\Application\PackageInterface;
-use Ixocreate\Application\Service\Configurator\ConfiguratorRegistryInterface;
-use Ixocreate\Application\Service\Registry\ServiceRegistryInterface;
-use Ixocreate\Log\Bootstrap\LogBootstrapItem;
+use Ixocreate\Application\Service\ServiceRegistryInterface;
 use Ixocreate\ServiceManager\ServiceManagerInterface;
 
 final class Package implements PackageInterface
