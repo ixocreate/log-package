@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ixocreate\\Log\\Package\\": "src/"
+            "Ixocreate\\Log\\": "src/"
         }
     },
     "scripts": {
