@@ -1,30 +1,31 @@
 {
-  "name": "ixocreate/log-package",
-  "description": "IXOCREATE Log Package",
-  "license": "MIT",
-  "type": "library",
-  "authors": [
-    {
-      "name": "IXOCREATE"
+    "name": "ixocreate/log-package",
+    "description": "IXOCREATE Log Package",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "IXOCREATE"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "ixocreate/application": "dev-consolidate",
+        "ixocreate/log": "dev-consolidate"
+    },
+    "require-dev": {
+        "ixocreate/coding-standard": "^1.0",
+        "php-coveralls/php-coveralls": "^2.1",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ixocreate\\Package\\Log\\": "src/"
+        }
+    },
+    "scripts": {
+        "fix-cs": "vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix --config vendor/ixocreate/coding-standard/.php_cs"
     }
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require": {
-    "php": "^7.1",
-    "ixocreate/log": "^1.0"
-  },
-  "require-dev": {
-    "ixocreate/coding-standard": "^1.0",
-    "php-coveralls/php-coveralls": "^2.1",
-    "phpunit/phpunit": "^7.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Ixocreate\\Log\\": "src/"
-    }
-  },
-  "scripts": {
-    "fix-cs": "vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix --config vendor/ixocreate/coding-standard/.php_cs"
-  }
 }
