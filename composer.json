@@ -25,6 +25,9 @@
             "Ixocreate\\Log\\": "src/"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "scripts": {
         "fix-cs": "vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix --config vendor/ixocreate/coding-standard/.php_cs"
     }
