@@ -52,7 +52,7 @@ final class Package implements PackageInterface
      */
     public function getBootstrapDirectory(): ?string
     {
-        return __DIR__ . '/../bootstrap';
+        return null;
     }
 
     /**
@@ -60,7 +60,7 @@ final class Package implements PackageInterface
      */
     public function getConfigDirectory(): ?string
     {
-        return __DIR__ . '/../config';
+        return null;
     }
 
     /**
@@ -78,7 +78,6 @@ final class Package implements PackageInterface
      */
     public function getDependencies(): ?array
     {
-        return [
-        ];
+        return null;
     }
 }
